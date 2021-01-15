@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: #2f4b7c;
+	font-size: 20px;
+}
+.matchContainer {
+	width: 1500px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px;
+	margin-top: -30px;
+}
+
+.teamContainer {
+	background-color: #4f68ff;
+	padding: 20px;
+	width: 49%;
+	border-radius: 20px;
+}
+
+.informationContainer {
+	height: 80px;
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #1d228c; 
+}
+
+img {
+	width: 80px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	padding: 7px;
+	color: #fff;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+tr:first-child .information {
+	color: #6fffe9;
+}
+
+p {
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
