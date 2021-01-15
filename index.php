@@ -6,7 +6,7 @@ require("./classes/GameMatch.php");
 require("./const/constants.php");
 // require("./functions/functions.php");
 
-// 18 _ kuriamas zaidejai
+// 18 _ kuriami zaidejai
 $players = [];
 
 // 19
@@ -37,7 +37,7 @@ for($i = 0; $i < 10; $i++) {
 	array_push($players, $player);
 }
 
-// 26 masyvas is dvieju komandu
+// 26 _ masyvas is dvieju komandu
 $teams = [];
 	
 // 28
