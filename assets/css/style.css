@@ -81,5 +81,13 @@ p {
 
 	.teamContainer {
 		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.teamContainer {
+		padding: 5px;
+		font-size: 0.8em;
 	}
 }
