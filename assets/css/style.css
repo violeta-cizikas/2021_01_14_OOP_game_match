@@ -10,8 +10,8 @@ h1 {
 	font-size: 20px;
 }
 .matchContainer {
-	width: 1500px;
-	height: 700px;
+	max-width: 1500px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -26,6 +26,7 @@ h1 {
 	padding: 20px;
 	width: 49%;
 	border-radius: 20px;
+	margin-top: 20px;
 }
 
 .informationContainer {
@@ -69,4 +70,14 @@ p {
 	color: #fff;
 	margin-bottom: 10px;
 	font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+	.matchContainer {
+		flex-direction: column;
+	}
+
+	.teamContainer {
+		width: 100%;
+	}
 }
