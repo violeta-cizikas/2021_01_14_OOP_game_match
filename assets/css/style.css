@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
 }
 
 h1 {
@@ -9,6 +10,31 @@ h1 {
 	color: #2f4b7c;
 	font-size: 20px;
 }
+
+.center {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+button {
+	background-color: #1d228c;
+	cursor: pointer;
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: none;
+	font-size: 16px;
+	width: 128px;
+}
+
+button:active {
+	background-color: #6fffe9;
+}
+
 .matchContainer {
 	max-width: 1500px;
 	width: 100%;

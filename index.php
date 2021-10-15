@@ -104,7 +104,7 @@ $match->setTime($time);
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css?v=2">
 	<title>2021_01_14_OOP_game_match</title>
 </head>
 
@@ -112,6 +112,10 @@ $match->setTime($time);
 	<!-- 46 -->
 	<h1><?php echo $match->getDate()?></h1>
 	<h1><?php echo $match->getTime()?></h1>
+
+	<div class="center">
+		<button onclick="window.location.reload()">Refresh</button>
+	</div>
 
 	<div class="matchContainer">
 		<!-- 48 -->
