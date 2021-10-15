@@ -85,7 +85,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 365px) {
 	.teamContainer {
 		padding: 5px;
 		font-size: 0.8em;
